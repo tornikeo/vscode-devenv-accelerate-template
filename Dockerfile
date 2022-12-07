@@ -37,6 +37,5 @@ ENV AWS_SECRET_ACCESS_KEY $AWS_SECRET_ACCESS_KEY
 ARG HF_AUTH_TOKEN
 ENV HF_AUTH_TOKEN HF_AUTH_TOKEN
 
-USER 1001
 # CMD sanic server:server --host=0.0.0.0 --port=${PORT}
 # CMD python3 -u server.py
